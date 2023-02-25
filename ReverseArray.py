@@ -1,3 +1,5 @@
+# Using two pointer approach we have reversed an array 
+
 def R_arr(arr):
     left = 0 
     right = len(arr)-1
@@ -15,8 +17,4 @@ def R_arr(arr):
 A = [2,3,4,5,6,7,8]
 print("Reversed array will be:")
 print(R_arr(A))
-
-    
-
-
 
