@@ -6,24 +6,24 @@
 // on first rotation [5,1,2,3,4]
 // on second rotation  [4,5,1,2,3] <-- the result/answer
 
-function rotateArray(A,n,k) {
+// function rotateArray(A,n,k) {
   
 
-    k = k % n;  
+//     k = k % n;  
 
-    for(i = 0; i < n ; i++){
-       if (i < k) {
-          console.log(A[n+i-k]);  // these are the rightmost elements 
-       }
-       else{
-         console.log(A[i-k]);  // these are the 
-       }
-    }
+//     for(i = 0; i < n ; i++){
+//        if (i < k) {
+//           console.log(A[n+i-k]);  // these are the rightmost elements 
+//        }
+//        else{
+//          console.log(A[i-k]);  // these are the 
+//        }
+//     }
     
-}
+// }
 
-const A = [1,2,3,4,5];
-rotateArray(A,A.length,1);
+// const A = [1,2,3,4,5];
+// rotateArray(A,A.length,1);
 
 
 ////////////////////////////// Another approach which is more optimal O(1) //////////////////////////
